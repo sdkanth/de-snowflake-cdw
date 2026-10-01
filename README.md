@@ -12,7 +12,7 @@ Yellow Taxi Trip Records (PARQUET)
 3. Create Snowflake managed Stage for loading CSV/Parquet files into it 
 4. Create Lake Table based on infer schema from Parquet File 
 5. Create Silver Table which is cleaned and ready to be ingested with business rules
-	a. Remove Null Vlaues 
+	a. Remove Null Values 
 	b. Standardize all Column_names as per requirement 
 	c. Remove Duplicate values based on Primary Key/ Unique Key 
 6. Load data from Lake to Silver based on View logic 
